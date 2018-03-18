@@ -7,5 +7,9 @@ public class Test2 {
     public static void main (String[] args) throws IOException{
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         System.out.println("Write your string: ");
+        String str = reader.readLine();
+        char[] c = new char[str.length()];
+        c = str.toCharArray();
+        for (int i = str.length()-1; i>=0; i--) System.out.print(c[i]);
     }
 }
