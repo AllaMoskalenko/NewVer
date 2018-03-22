@@ -1,4 +1,8 @@
-.idea/
-out/
-*~
+#.idea/
+#out/
+#*~
+#<<<<<<< HEAD
 f*.*
+#=======
+#f*.rm
+#>>>>>>> nv/develop
